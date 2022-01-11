@@ -2,61 +2,93 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+
+<link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-
-    <ul>
+    <ul class="menu">
         <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" class="links">Home</a>
         </li>
-        <li><a href="contato.html">Contato</a>
+        <li>
+            <a href="contato.html" class="links">Contato</a>
         </li>
+        
     </ul>
 
-    <h1>Sobre o Wesley</h1>
-    <h2>Não, eu sou seu pai</h2>
-    <h3>Aquilo não é lua, é uma estação espacial</h3>
-    <h4>Que a Força esteja com você</h4>
-    <h5>Quando o deixei, eu era só o aprendiz; agora eu sou o mestre</h5>
-    <h6>Não vai ta tendo</h6>
+    <h1 class="center" id="nome">Sobre o Wesley</h1>
+    <h2 class="center">Não, eu sou seu pai</h2>
+    <h3 class="center">Aquilo não é lua, é uma estação espacial</h3>
+    <h4 class="center">Que a Força esteja com você</h4>
+    <h5 class="center">Quando o deixei, eu era só o aprendiz; agora eu sou o mestre</h5>
+    <h6 class="center">Não vai ta tendo</h6>
 
-    <p>
-        Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis.Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.Quem num gosta di mé, boa gentis num é.A ordem dos tratores não altera o pão duris.
-        Quem num gosta di mé, boa gentis num é.Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!Si num tem leite então bota uma pinga aí cumpadi!Sapien in monti palavris qui num significa nadis i pareci latim.
-        </p>
-        <p>
-        Detraxit consequat et quo num tendi nada.Casamentiss faiz malandris se pirulitá.Cevadis im ampola pa arma uma pindureta.Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.
-        Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Si num tem leite então bota uma pinga aí cumpadi!
-    </p>
+    <div class="container">
+        <div class="p-30">
+            <p class="justify">
+                Olá, sou Wesley Rios, tenho 26 anos e estou estrando na área de tecnologia recentemente,
+                através de um bootcamp pela GenerationBrasil para ser um <strong>Desenvolvedor WEB</strong> e melhorando também
+                minhas habilidades técnicas e soft skils, estou trabalhando com muita persistência nessa etapa
+                para adquirir todo conhecimento que o bootcamp oferece, e poder entrar no mercado de trabalho da
+                tecnologia com motivação, cabeça erguida e pronto para novos desafios.
+            </p>
+        </div>
+        <div>
+            <img class="br-50 wh p-30" src="./assets/img/Criadordosite.jpg" alt="Foto do criador do site">
+        </div>
+    </div>
 
-    <img src="assets/img/mussum projeto.jpg" alt="Foto do Mussumdis">
+    <h2 class="center">Musiquinha do site:</h2>
 
-    <h2>Musiquinha do site:</h2>
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/TFdO7oqkMzI" 
+        title="YouTube video player" 
+        frameborder="5" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/TFdO7oqkMzI" 
-    title="YouTube video player" 
-    frameborder="5" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+    <h3 class="center">video para descontrair:</h3>
 
-    <h3>video para descontrair:</h3>
-
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/CkrTWTxgf1k" 
-    title="YouTube video player" 
-    frameborder="5" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/CkrTWTxgf1k" 
+        title="YouTube video player" 
+        frameborder="5" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
     
+    <hr>
+    <footer>
+        <div class="container">
+            
+            <a href="https://github.com/Zarps" target="_blank">
+                <img class="tm-social p-30" src="./assets/img/github.png" alt="Logo do github">
+            </a>
+
+            <a href="https://www.linkedin.com/in/wesleyrioos/" target="_blank">
+                <img class="tm-social p-30" src="./assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+
+            <a href="https://www.instagram.com/wesleyrioos/" target="_blank">
+                <img class="tm-social p-30" src="./assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            
+        </div>
+
+        <p class="center">Todos os direitos reservados: Wesley Rios &copy</p>
+    </footer>
+
 </body>
 </html>
