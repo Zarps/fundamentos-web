@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+.foto{
+    -webkit-box-shadow: inset -8px -10px 12px -4px rgba(95, 119, 138, 0.74); 
+    box-shadow: inset -8px -10px 12px -4px rgba(157, 164, 170, 0.74);
+}
+
 #starwars {
     color: #ffc048;
 }
@@ -53,6 +58,12 @@
     list-style: none;
 }
 
+.contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .links {
     font-size: 2rem;
     text-decoration: none;
@@ -69,7 +80,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50vw;
+    width: 30vw;
 
 }
 
@@ -116,6 +127,7 @@ button:hover {
 
 body {
     background-color: #1e272e;
+    background: linear-gradient(to top, #040305, #1e272e);
 }
 
 *{
