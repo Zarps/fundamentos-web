@@ -4,6 +4,30 @@
     text-align: center;
 }
 
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
 .foto{
     -webkit-box-shadow: inset -8px -10px 12px -4px rgba(95, 119, 138, 0.74); 
     box-shadow: inset -8px -10px 12px -4px rgba(157, 164, 170, 0.74);
