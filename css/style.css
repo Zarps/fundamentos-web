@@ -1,160 +1,153 @@
 /* estilos da pagina index.html */
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
 }
 
 .cabecalho-imagem {
-    height: 72px;
+  height: 72px;
 }
 
 .cabecalho-menu {
-    display: flex;
-    gap: 32px;
+  display: flex;
+  gap: 32px;
 }
 
 .cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px;
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
 }
 
-.foto{
-    -webkit-box-shadow: inset -8px -10px 12px -4px rgba(95, 119, 138, 0.74); 
-    box-shadow: inset -8px -10px 12px -4px rgba(157, 164, 170, 0.74);
+.foto {
+  -webkit-box-shadow: inset -8px -10px 12px -4px rgba(95, 119, 138, 0.74);
+  box-shadow: inset -8px -10px 12px -4px rgba(157, 164, 170, 0.74);
 }
 
 #starwars {
-    color: #ffc048;
+  color: #ffc048;
 }
 
-.fonte{
-    color: rgb(221, 233, 233);
+.fonte {
+  color: rgb(221, 233, 233);
 }
 
 .justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 .container {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .p-30 {
-    padding: 30px;
+  padding: 30px;
 }
 
 .br-50 {
-    border-radius: 50%;
-
+  border-radius: 50%;
 }
 
 .wh {
-    width: 450px;
-    height: 450px;
+  width: 350px;
+  height: 350px;
 }
 
 .tm-social {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .mb-50 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-
 
 /* estilos da pagina contato.html */
 .menu {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .contato {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .links {
-    font-size: 2rem;
-    text-decoration: none;
-    color: #f1f2f6;
-
+  font-size: 2rem;
+  text-decoration: none;
+  color: #f1f2f6;
 }
 
 .links:hover {
-    text-decoration: underline;
-    color: #7b4881;
+  text-decoration: underline;
+  color: #7b4881;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30vw;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
 }
 
 .campo {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0 0 1rem 0;
-    width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0 0 1rem 0;
+  width: 100%;
 }
 
 .campo label {
-    
-    font-size:  1.275rem;
-    font-weight: bold;
-    margin-bottom: 5px;
+  font-size: 1.275rem;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.campo input, .campo textarea {
-    padding: 0.5rem ;
-    font-size: 1.5rem;
-    border: 0;
-    border-bottom: 1px solid #7b4881;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+.campo input,
+.campo textarea {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: 0;
+  border-bottom: 1px solid #f1f2f6;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #3d515f;
 }
 
 button {
-    width:  50%;
-    padding: .5rem;
-    margin-top: 1rem;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    font-size: 1.25rem;
-    border-radius: 1rem;
-    border: 2px solid #7b4881;
-    background: transparent;
-    transition: 0.3s;
-    
+  width: 50%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  border: 2px solid #f1f2f6;
+  background: transparent;
+  transition: 0.3s;
 }
 
 button:hover {
-    background: #7b4881;
-    
+  background: #7b4881;
 }
 
 body {
-    background-color: #1e272e;
-    background: linear-gradient(to top, #040305, #1e272e);
+  background-color: #1e272e;
+  background: linear-gradient(to top, #040305, #1e272e);
 }
 
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
-
